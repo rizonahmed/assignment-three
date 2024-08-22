@@ -22,6 +22,21 @@
             font-family: "Manrope", system-ui;
         }
     </style>
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        backgroundImage: {
+        'pattern': "url('./photos/bg.jpg')",
+        
+      }
+
+      }
+    }
+  }
+</script>
+
 </head>
 <body class="manrope-font overflow-x-hidden">
 
@@ -254,6 +269,49 @@
   </div>
   </section>
   <!-- section three ends here  -->
+
+  <!-- form section start here  -->
+   <section  class="bg-pattern bg-no-repeat bg-cover bg-center w-full  mt-3">
+    <div class=" container mx-auto py-12" >
+
+       <div class=" m-auto text-center">
+        <button class=" bg-[#daf5be] px-5 py-1  rounded-3xl text-sm font-bold"><i class="fa-solid fa-arrow-right"></i> Let's Connect </button>
+        <h2 class=" font-extrabold text-3xl pt-4 pb-5">Let's Discuss Next project </h2>
+        <p class="px-8 text-sm font-bold md:w-[50%] m-auto"> The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+       </div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 px-8 text-center m-auto gap-5 pt-10">
+  
+<div class="text-center md:text-end">
+ <input class="rounded-full h-16 px-6 py-4  w-9/12 " type="text" placeholder="First Name*">
+</div> 
+<div class="text-center md:text-start">
+ <input class="rounded-full h-16 px-6 py-4  w-9/12 " type="text" placeholder="Last Name*">
+</div> 
+<div class="text-center md:text-end">
+ <input class="rounded-full h-16 px-6 py-4  w-9/12 " type="text" placeholder="Phone Number*">
+</div> 
+<div class="text-center md:text-start">
+ <input class="rounded-full h-16 px-6 py-4  w-9/12 " type="text" placeholder="Email Number*">
+</div> 
+  
+<div class="text-center md:col-span-2">
+ <textarea name="" rows="7" cols="100" id="" class="m-auto text-gray-500 rounded-3xl px w-9/12 p-3"> write your massage</textarea>
+</div>
+
+</div>
+
+<div class="text-center pt-4 pb-10">
+  <button class="w-8/12 h-12 bg-[#ABEF5F] rounded-3xl  ">
+    <a class=" font-extrabold text-base rounded-3xl ml-4">Sent Mail <i class="fa-solid fa-arrow-right  text-white text-base -rotate-45 bg-black  px-1.5 py-[1px] rounded-full"></i></a>
+  
+  </button>
+</div>
+
+</div>
+   </section>
+   <!-- form section ends here   -->
 
 </main>
 <!-- main end here  -->
